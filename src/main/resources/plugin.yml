@@ -1,0 +1,19 @@
+
+name: MerdekaIndonesia
+version: 1.0.0
+main: id.todprojects.merdeka.MerdekaIndonesia
+api-version: '1.21'
+author: Tod
+description: Event Kemerdekaan Indonesia
+
+commands:
+  merdeka:
+    description: Perintah event Kemerdekaan
+    usage: /merdeka [mulai|stop|info|hadiah]
+    aliases: [17an, kemerdekaan]
+
+permissions:
+  merdeka.admin:
+    description: Mengelola event Kemerdekaan
+    default: op
+    
