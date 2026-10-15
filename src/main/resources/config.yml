@@ -1,0 +1,8 @@
+
+event:
+  duration-seconds: 120
+  firework-interval-seconds: 5
+  reward:
+    material: FIREWORK_ROCKET
+    amount: 8
+    
